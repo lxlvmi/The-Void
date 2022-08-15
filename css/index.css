@@ -1,0 +1,77 @@
+
+.p{
+    text-align: center;
+    font-family: 'Exo 2';font-size: 16px;
+    text-shadow: 0px 2px 2px black;
+    color: white;
+    margin-top: 100px;
+    background-color: transparent;
+}
+.record img{
+    position: relative;
+top: -10px;
+}
+.record {
+    display: flex;
+   justify-content: center;
+
+}
+.centered{
+   margin-top: 50%;
+   margin-bottom: 50%;
+align-items: center;   
+
+}
+.loop img {
+    display: inline-block;
+    width: 100%;
+    transform: scale(2, 2);
+    align-items: center;
+    
+    
+
+}
+
+.loop {
+   
+    top: 0%;
+    left: 0%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 375px;
+    height: 812px;
+   
+}
+.navbar img{
+    align-items:center;
+    width: 115%;
+    margin: 0%;
+    padding: 15%;
+ 
+      
+}
+.navbar{
+    display: inline-flex;
+    align-items: flex-end;
+    bottom: 0%;
+    width: 100%;
+    justify-content: center;
+    text-align: bottom;
+}
+
+body {
+    width: 375px;
+    height: 812px;
+}
+
+.background {
+    order: -1;
+    width: 375px;
+    height: 812px;
+    background-image: url("../images/backgroundvoid.gif");
+    background-repeat: none;
+    overflow-x: scroll;
+
+}
