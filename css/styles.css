@@ -11,7 +11,7 @@ p {
 }
 .instruction {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .yellowloop img{
     display: inline-block;
@@ -35,6 +35,7 @@ p {
     top: -10px;
     align-items: center;
     width: 85px;
+    margin-right: 5px;
 }
 .pause {
     display: flex;
@@ -51,18 +52,18 @@ p {
 }
 .container p {
     display: inline-block;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 .container img {
     display: inline-block;
     height: 24px; 
     width: 24px;
-    margin-top: 10px;
-    margin-left: 35px;
+    margin-top: 13px;
+    margin-left: 65px;
 }
 .heart {
     text-align: right;
-    margin-right: 60px;
+    margin-right: 45px;
 }
 .heart img {
     width: 63px;
@@ -81,9 +82,4 @@ p {
     width: 100%;
     justify-content: center;
     text-align: bottom;
-}
-.status img {
-    width: 375px;
-    height: 44px;
-    margin: auto;
 }
