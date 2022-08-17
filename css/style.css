@@ -26,7 +26,14 @@
     background-color: transparent;
     margin-left: 20px;
 }
-
+/*
+@supports (-webkit-text-stroke: 2px black) {
+    h2 {
+      -webkit-text-stroke: 3px white;
+      -webkit-text-fill-color: transparent;
+    }
+}
+*/
 .aboutus {
     text-align: left;
     font-family: 'Exo 2';
