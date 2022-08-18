@@ -1,0 +1,85 @@
+p {
+    font-family: 'Exo 2', sans-serif;
+}
+.body {
+    background-image: linear-gradient(#FEDF7A, #FFFBF0);
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 812px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+.instruction {
+    text-align: center;
+    margin-top: 100px;
+}
+.yellowloop img{
+    display: inline-block;
+    width: 100%;
+    transform: scale(2,2);
+    align-items: center;
+    margin-top: 60px;
+}
+.yellowloop {
+    top: -75px;
+    left: 0%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 375px;
+    height: 812px;
+}
+.pause img{
+    position: relative;
+    top: -10px;
+    align-items: center;
+    width: 85px;
+    margin-right: 5px;
+}
+.pause {
+    display: flex;
+    justify-content: center;
+}
+.centered {
+    margin-top: 40%;
+    margin-bottom: 30%;
+    align-items: center;
+}
+.container {
+    column-count: 2;
+    text-align: center;
+}
+.container p {
+    display: inline-block;
+    margin-left: 20px;
+}
+.container img {
+    display: inline-block;
+    height: 24px; 
+    width: 24px;
+    margin-top: 13px;
+    margin-left: 65px;
+}
+.heart {
+    text-align: right;
+    margin-right: 45px;
+}
+.heart img {
+    width: 63px;
+    height: 24px;
+}
+.navbar img {
+    align-items: center;
+    width: 115%;
+    margin: 0%;
+    padding: 15%;
+}
+.navbar {
+    display: inline-flex;
+    align-items: flex-end;
+    bottom: 0%;
+    width: 100%;
+    justify-content: center;
+    text-align: bottom;
+}
