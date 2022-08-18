@@ -1,0 +1,22 @@
+p {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 16px;
+    margin-top: 150px;
+    text-align: center;
+}
+.body {
+    background-image: linear-gradient(#F3E3D6, #FFFBF0);
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 812px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+button {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 16px;
+    background-color: white !important;
+    color:#EB3541 !important;
+    border-color: #EB3541 !important;
+    width: 295px;
+}
